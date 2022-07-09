@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tablero {
+    display: flex;
+}
+
+.fila:nth-child(odd) div:nth-child(even),
+.fila:nth-child(even) div:nth-child(odd) {
+    background-color: gray;
+}
