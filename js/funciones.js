@@ -4,7 +4,7 @@ function numCasillas() {
 }
 
 function anchoCasillas() {
-    let widthCasillas = parseFloat(prompt('Dime el ancho de las casillas:'));
+    let widthCasillas = parseFloat(prompt('Dime el ancho de las casillas (px):'));
     return widthCasillas;
 }
 
